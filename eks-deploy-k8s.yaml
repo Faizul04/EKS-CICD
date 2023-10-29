@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: 491822727052.dkr.ecr.us-east-1.amazonaws.com/eks-cicd 
+        image: https://hub.docker.com/repository/docker/faizul04/kubedeploy/
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
